@@ -179,6 +179,12 @@ declare namespace Pjax {
       requestParams?: IRequestParams[];
       formData?: FormData;
     }
+
+    /**
+     * Callback function that is called to decide whether to ignore pjax or not.
+     * by default, it returns false.
+     */
+    shouldIgnore: Function;
   }
 
   export type Switch = (oldEl: Element, newEl: Element, options?: IOptions, switchesOptions?: StringKeyedObject) => void;

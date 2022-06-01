@@ -177,6 +177,10 @@ Pjax.prototype = {
         ? extend({}, this.options, options)
         : clone(this.options);
 
+    if (options.shouldIgnore(href)) {
+      return;
+    }
+
     this.log("load href", href, options);
 
     // Abort any previous request
