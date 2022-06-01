@@ -1,3 +1,7 @@
+I forked `MoOx/pjax` repo to make some changes for myself. these changes include:
+1. new `pjax:beforeSend` event: you can change xhr by accessing `e.xhr`.
+2. added `shouldIgnore` option: this is a function that is called to decide whether to ignore pjax or not.
+
 # Pjax
 
 [![Build Status](https://img.shields.io/travis/MoOx/pjax.svg)](https://travis-ci.org/MoOx/pjax).
