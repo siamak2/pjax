@@ -1,6 +1,6 @@
 {
   "name": "pjax",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "Easily enable fast AJAX navigation on any website (using pushState + XHR)",
   "keywords": [
     "pjax",
@@ -10,11 +10,12 @@
     "transition",
     "animation"
   ],
-  "repository": "https://github.com/MoOx/pjax.git",
+  "repository": "https://github.com/siamak2/pjax.git",
   "author": "Maxime Thirouin",
   "contributors": [
     "BehindTheMath",
-    "Robin North (http://robinnorth.co.uk)"
+    "Robin North (http://robinnorth.co.uk)",
+    "Siamak Salimi"
   ],
   "license": "MIT",
   "main": "index.js",
