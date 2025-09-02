@@ -179,7 +179,7 @@ Pjax.prototype = {
         ? extend({}, this.options, options)
         : clone(this.options);
 
-    if (options.shouldIgnore(href)) {
+    if (options.shouldIgnore(href,options)) {
       return;
     }
 
