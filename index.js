@@ -48,6 +48,8 @@ var Pjax = function(options) {
         }
         this.lastUid = st.state.uid;
 
+        opt.popstate=st.state;
+
         // @todo implement history cache here, based on uid
         this.loadUrl(st.state.url, opt);
       }
